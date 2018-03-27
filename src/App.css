@@ -1,0 +1,33 @@
+.el {
+  opacity: 0;
+}
+.line {
+  width: 100%;
+  padding: 1px 0px;
+}
+.shadow {
+  position: absolute;
+  opacity: 0.2;
+}
+.square,
+.circle {
+  pointer-events: none;
+  position: relative;
+  width: 28px;
+  height: 28px;
+  margin: 1px;
+  background-color: green;
+  font-size: 12px;
+}
+.circle {
+  border-radius: 50%;
+}
+.triangle {
+  pointer-events: none;
+  position: relative;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 0 14px 24px 14px;
+  border-color: transparent transparent green transparent;
+}
